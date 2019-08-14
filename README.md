@@ -1,4 +1,4 @@
-# Consuming Amazon RDS MySQL in SAP Cloud Platform via User-Provided Services
+# DevX Code-Camp: Consuming Hyperscalar Service in SAP Cloud Platform via User-Provided Services
 
 ## 1. Scenario Background
 #### What you will learn in this session
@@ -34,6 +34,7 @@ Provide your I-Number in the value for 'db'. Click Save to create a new User-Pro
 	"uri": "jdbc:mysql://codecampdemo.cxprddfwftdb.ap-south-1.rds.amazonaws.com:3306/"
 }
 ```
-3. 
-
+## 3.  Create a Node.js application and Deploy on SAP Cloud Platform
+1. Download the application code from https://github.com/suhasn/mysqlupsdemo.git
+2. Edit the manifest.yml file, review the file for the application configuration and update the Service Binding.
  
