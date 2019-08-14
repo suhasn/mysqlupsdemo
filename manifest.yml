@@ -1,0 +1,7 @@
+applications:
+  - name: mysqlupsdemo
+    memory: 512M
+    buildpack: nodejs_buildpack
+    services:
+    - awsmysqldb
+     

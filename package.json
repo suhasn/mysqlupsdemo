@@ -1,0 +1,23 @@
+{
+  "name": "mysqlupsdemo",
+  "version": "1.0.0",
+  "description": "Demo Application for Code Camp. Consume Amazon RDS MySQL on SCP via UPS.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.wdf.sap.corp/i072243/mysqlupsdemo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql": "^2.17.1",
+    "cfenv": "^1.0.4",
+    "request": "2.88.0",
+    "@sap/xsenv": "^1.2.9",
+    "@sap/xssec": "^2.1.15"
+  }
+}
