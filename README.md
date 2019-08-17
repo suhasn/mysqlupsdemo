@@ -55,4 +55,25 @@ applications:
 
 6. Now, from your Terminal/Command Prompt. Navigate to the application folder and point the CF CLI to our SAP Cloud Platform, account as follows:
 * Identify the Cloud Foundry API Endpoint from the SAP Cloud Platform Cockpit:
+```script
+cf api <CF API ENDPOINT>
+```
+![CF API Endpoint](https://github.com/suhasn/mysqlupsdemo/blob/master/images/CFAPIENDPOINT.png)
+
+* Set the CF CLI on Terminal to point to the above API Endpoint:
+```script
+cf api <CF API ENDPOINT>
+```
+![CF CLI Commands](https://github.com/suhasn/mysqlupsdemo/blob/master/images/CFCLI.png)
+* Login with your SAP Cloud Platform credentials provided:
+```script
+cf login
+```
+![CF CLI Commands](https://github.com/suhasn/mysqlupsdemo/blob/master/images/CFCLI_copy.png)
+
+* Verify the correct SubAccount and Space are listed. If you are member of more than one account in this region, you would have to choose the appropriate Account and Space. (As provided to you during the session)
+
+7. Deploy the node.js application on SAP Cloud Platform.
+
+
 
