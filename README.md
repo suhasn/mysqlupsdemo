@@ -23,6 +23,8 @@ In this session, you will create a simple Node.js application called ‘MYSQL UP
   
 2. Click on ‘New Instance’. And provide an instance name (**Eg: 'awsmysqldb'**) and the credentials and endpoint url details in the JSON format mentioned below and MySQL Hostname and Credentials. 
 
+![UPS Instance Creation](https://github.com/suhasn/mysqlupsdemo/blob/master/images/CFUPS.png)
+
 Provide your I-Number in the value for 'db'. Click Save to create a new User-Provided Service
 
 ```javascript
@@ -74,6 +76,13 @@ cf login
 * Verify the correct SubAccount and Space are listed. If you are member of more than one account in this region, you would have to choose the appropriate Account and Space. (As provided to you during the session)
 
 7. Deploy the node.js application on SAP Cloud Platform.
+```script
+cf push
+```
+
+With this the application should get deployed and be in started state.
+![CF Push](https://github.com/suhasn/mysqlupsdemo/blob/master/images/CFPUSH.png)
+
 
 
 
