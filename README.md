@@ -53,4 +53,6 @@ applications:
  var upsInstanceName = '<YOUR UPS INSTANCE NAME>';
  ```
 
-6. Now, from your Terminal/Command Prompt. Navigate to the application folder.
+6. Now, from your Terminal/Command Prompt. Navigate to the application folder and point the CF CLI to our SAP Cloud Platform, account as follows:
+* Identify the Cloud Foundry API Endpoint from the SAP Cloud Platform Cockpit:
+
