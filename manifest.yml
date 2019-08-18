@@ -3,5 +3,5 @@ applications:
     memory: 512M
     buildpack: nodejs_buildpack
     services:
-    - awsmysqldb
+    - <YOUR UPS INSTANCE NAME>
      
