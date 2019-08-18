@@ -2,7 +2,7 @@ const xsenv = require('@sap/xsenv');
 // Module var
 let __db, _con;
 
-var upsInstanceName = 'awsmysqldb';
+var upsInstanceName = '<YOUR UPS INSTANCE NAME>';
 var host = xsenv.cfServiceCredentials(upsInstanceName).hostname;
 var user = xsenv.cfServiceCredentials(upsInstanceName).username;
 var password = xsenv.cfServiceCredentials(upsInstanceName).password;
