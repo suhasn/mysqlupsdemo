@@ -80,8 +80,31 @@ cf login
 cf push
 ```
 
-With this the application should get deployed and be in started state.
+* With this the application should get deployed and be in started state.
 ![CF Push](https://github.com/suhasn/mysqlupsdemo/blob/master/images/CFPUSH.png)
+
+* Verify that the application is deployed successfully and in running status on the SAP Cloud Platform Cockpit.
+
+![CF Application Running ](https://github.com/suhasn/mysqlupsdemo/blob/master/images/4.png)
+
+* Copy the application route URL from the cockpit and open in your brower to ensure the application is running.
+
+![Browser Application Running ](https://github.com/suhasn/mysqlupsdemo/blob/master/images/5.png)
+
+8. Connect SQL Client to Access the MySQL Database and enter values. Open SQuirrel SQL Client and create a new connection Alias as below with your database name:
+![SQurriel Client Alias Creation](https://github.com/suhasn/mysqlupsdemo/blob/master/images/6.png)
+
+9. Open the SQL Window for the database and insert some values using the query:
+```sql
+INSERT INTO employee_details(emp_id, first_name, last_name, gender, department) values ('101','John','Doe','Male','DevX')
+```
+
+10. Now call the application rest api to check the data on the browser.
+
+![Rest API on browser](https://github.com/suhasn/mysqlupsdemo/blob/master/images/7.png)
+
+With this we have successfully created and consumed a AWS MySQL service instance on SAP Cloud Platform node.js application using User-Provided Services.
+
 
 
 
